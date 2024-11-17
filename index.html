@@ -1,0 +1,634 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Document</title>
+</head>
+<body>
+
+
+    <!----------------- SIZED UP PART ---------------->
+    <div class="mobile">
+        <div class="head">
+            <div class="color"></div>
+            <div class="mobile_logo">
+                <div class="mobile_nav">
+                    <div class="lines">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                    <img src="image/logo-alternate.webp" alt="">
+                </div>
+                <div class="mobile_nav2">
+                    <a href="#"><i class='bx bx-store'></i></a>
+                    <a href="#"><i class='bx bx-cart'></i></a>
+                </div>
+            </div>
+            <div class="search_btn">
+                <input type="search" placeholder="Search for products, brands and categories...">
+                <a href="#"><i class='bx bx-search'></i></a>
+            </div>
+        </div>
+
+
+        <!------------ SECOND SIDE PART ----------------->
+        <div class="browse_all">
+            <a href="#">
+                <svg height="22" viewBox="0 0 22 22" width="22" xmlns="http://www.w3.org/2000/svg" aria-label="menu-browse-all" class="" name="menu-browse-all"><path d="M11 21C5.477 21 1 16.523 1 11S5.477 1 11 1s10 4.477 10 10-4.477 10-10 10zm-4.348-8.696a1.304 1.304 0 1 0 0-2.608 1.304 1.304 0 0 0 0 2.608zm4.348 0a1.304 1.304 0 1 0 0-2.608 1.304 1.304 0 0 0 0 2.608zm4.348 0a1.304 1.304 0 1 0 0-2.608 1.304 1.304 0 0 0 0 2.608z" fill="none" fill-rule="evenodd" stroke="#50545B"></path></svg>
+                <span>Browse All</span>
+            </a>
+            <a href="#">
+                <svg height="22" viewBox="0 0 24 22" width="24" xmlns="http://www.w3.org/2000/svg" aria-label="menu-fashion" class="" name="menu-fashion"><path d="M16.913 21H7.31c-.611 0-1.107-.5-1.107-1.114V9.948l-.62.623a1.102 1.102 0 0 1-1.566 0L1.324 7.858a1.12 1.12 0 0 1 0-1.575l4.924-4.957c.24-.242.588-.36.922-.317.046-.006.093-.009.14-.009h1.369c.375 0 .725.192.93.509.435.677 1.417 1.114 2.502 1.114 1.085 0 2.069-.437 2.504-1.114.204-.317.554-.509.93-.509h1.369c.047 0 .093.003.14.009a1.107 1.107 0 0 1 .922.317l4.922 4.957a1.12 1.12 0 0 1 0 1.575l-2.692 2.713a1.104 1.104 0 0 1-1.566 0l-.62-.624v9.939c0 .615-.496 1.114-1.107 1.114z" fill="none" fill-rule="nonzero" stroke="#50545B"></path></svg>
+                <span>Fashion</span>
+            </a>
+            <a href="#">
+                <svg height="22" viewBox="0 0 25 22" width="25" xmlns="http://www.w3.org/2000/svg" aria-label="menu-computers" class="" name="menu-computers"><g fill="none" fill-rule="nonzero"><path d="M23.468 1.564A1.848 1.848 0 0 0 22.113 1H2.919c-.527 0-.98.188-1.355.564A1.848 1.848 0 0 0 1 2.919v13.052c0 .528.188.98.564 1.356.376.376.828.564 1.355.564h6.526v3.07h6.142v-3.07h6.526c.528 0 .98-.188 1.356-.564.376-.376.563-.828.563-1.356V2.92c0-.527-.188-.98-.564-1.355z" stroke="#50545B"></path><path d="M10.142 11.487a.7.7 0 0 1-.892-1.079l5.724-4.73a.7.7 0 1 1 .892 1.079l-5.724 4.73z" fill="#50545B"></path></g></svg>
+                <span>Computers</span>
+            </a>
+            <a href="#">
+                <svg height="22" viewBox="0 0 14 22" width="14" xmlns="http://www.w3.org/2000/svg" aria-label="menu-phones" class="" name="menu-phones"><path d="M13.222 18.818A2.177 2.177 0 0 1 11.05 21H3.173C1.973 21 1 20.023 1 18.818V3.182C1 1.977 1.973 1 3.173 1h7.876c1.2 0 2.173.977 2.173 2.182v15.636zm-6.11.58a1.23 1.23 0 0 0 1.227-1.232c0-.68-.55-1.233-1.228-1.233a1.23 1.23 0 0 0-1.227 1.233c0 .68.55 1.232 1.227 1.232z" fill="none" fill-rule="nonzero" stroke="#50545B"></path></svg>
+                <span>Phones</span>
+            </a>
+            <a href="#">
+                <svg height="22" viewBox="0 0 22 22" width="22" xmlns="http://www.w3.org/2000/svg" aria-label="menu-deals" class="" name="menu-deals"><path d="M1 13.016L8.984 21 21 8.984V1h-7.984L1 13.016zM17.008 6.4a1.409 1.409 0 1 1 0-2.818 1.409 1.409 0 0 1 0 2.818zm-9.002 6.145a1.057 1.057 0 1 1 0-2.114 1.057 1.057 0 0 1 0 2.114zm5.01 0a1.057 1.057 0 1 1 0-2.114 1.057 1.057 0 0 1 0 2.114zm-2.505 2.975V7.497v8.024z" fill="none" fill-rule="evenodd" stroke="#50545B" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.2"></path></svg>
+                <span>All Deals</span>
+            </a>
+        </div>
+    </div>
+
+
+
+            <!------------ THIRD BELOW SIDE PART ----------------->
+
+    <div class="home">
+        <div class="home2">
+            <a href="#">
+                <svg fill="none" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg" aria-label="btm-nav-home" class="" name="btm-nav-home"><path d="M20.4051 12.6C20.2051 12.6 20.0051 12.52 19.8451 12.38L12.0051 4.72001L4.16505 12.38C3.84505 12.68 3.34505 12.68 3.02505 12.36C2.72505 12.04 2.72505 11.54 3.04505 11.22L11.4451 3.02001C11.7651 2.72001 12.245 2.72001 12.565 3.02001L20.965 11.22C21.285 11.52 21.2851 12.04 20.9851 12.36C20.8251 12.52 20.6051 12.6 20.4051 12.6ZM18.6451 20.4V12.58C18.6451 12.14 18.2851 11.78 17.8451 11.78C17.4051 11.78 17.0451 12.14 17.0451 12.58V19.6H14.5451V15.32C14.5451 14.74 14.0651 14.26 13.4851 14.26H10.5051C9.92505 14.26 9.44505 14.74 9.44505 15.32V19.6H6.94505V12.58C6.94505 12.14 6.58505 11.78 6.14505 11.78C5.70505 11.78 5.34505 12.14 5.34505 12.58V20.4C5.34505 20.84 5.70505 21.2 6.14505 21.2H10.2451C10.6851 21.2 11.0451 20.84 11.0451 20.4V15.86H12.9451V20.4C12.9451 20.84 13.3051 21.2 13.7451 21.2H17.8451C18.3051 21.2 18.6451 20.84 18.6451 20.4Z" fill="#575757"></path></svg>
+                <p>Home</p>
+            </a>
+            <a href="#">
+                <svg fill="none" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg" aria-label="btm-nav-deals" class="" name="btm-nav-deals"><path d="M15.244 21.366C15.043 21.567 14.8044 21.7265 14.5418 21.8353C14.2792 21.9441 13.9978 22.0001 13.7135 22.0001C13.4292 22.0001 13.1478 21.9441 12.8852 21.8353C12.6226 21.7265 12.384 21.567 12.183 21.366L3.634 12.817C3.22815 12.4112 3.00009 11.8609 3 11.287V5.163C3 3.97 3.97 3 5.164 3H11.287C11.86 3 12.411 3.228 12.817 3.634L21.366 12.183C21.567 12.384 21.7265 12.6226 21.8353 12.8852C21.9441 13.1478 22.0001 13.4292 22.0001 13.7135C22.0001 13.9978 21.9441 14.2792 21.8353 14.5418C21.7265 14.8044 21.567 15.043 21.366 15.244L15.244 21.366Z" stroke="#575757" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path><path d="M6.5 6.5L7 7" stroke="#575757" stroke-linecap="round" stroke-width="2"></path></svg>
+                <p>Deals</p>
+            </a>
+            <a href="#">
+                <svg fill="none" height="23" viewBox="0 0 24 23" width="24" xmlns="http://www.w3.org/2000/svg" aria-label="btm-nav-cart" class="" name="btm-nav-cart"><path d="M20.25 17.25H7.5L3.75 1.5H1.5M4.5 4.5H22.5L20.25 14.25H6.75L4.5 4.5Z" stroke="#575757" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path><path d="M18.75 21.75C19.5784 21.75 20.25 21.0784 20.25 20.25C20.25 19.4216 19.5784 18.75 18.75 18.75C17.9216 18.75 17.25 19.4216 17.25 20.25C17.25 21.0784 17.9216 21.75 18.75 21.75Z" stroke="#575757" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path><path d="M9 21.75C9.82843 21.75 10.5 21.0784 10.5 20.25C10.5 19.4216 9.82843 18.75 9 18.75C8.17157 18.75 7.5 19.4216 7.5 20.25C7.5 21.0784 8.17157 21.75 9 21.75Z" stroke="#575757" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
+                <p>Cart</p>
+            </a>
+            <a href="#">
+                <svg fill="none" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg" aria-label="btm-nav-more" class="" name="btm-nav-more"><path d="M4 6H20V8H4V6ZM8 11H20V13H8V11ZM13 16H20V18H13V16Z" fill="#575757"></path></svg>
+                <p>More</p>
+            </a>
+        </div>
+        
+    </div>
+
+    <!------------- HEAD LOGOS ---------------- -->
+    <div class="images">
+        <img src="image/k_travels2.webp" alt="">
+        <img src="image/konga_pay.webp" alt="">
+        <img src="image/new_konga_drinks.webp" alt="">
+        <img src="image/konga_health.webp" alt="">
+        <img src="image/k_express2.webp" alt="">
+        <img src="image/new_konga_groceries.webp" alt="">
+        <img src="image/kongaTV.webp" alt="">
+        <img src="image/KongaNow.webp" alt="">
+    </div>
+
+
+    <!-- ------------SECOND HEADER ----------------->
+    <div class="header">
+        <img src="image/konga.webp" alt="">
+        <p>Store <br>Locator</p>
+        <p>Sell on <br>Konga</p>
+        <div class="header_search">
+            <input type="text" placeholder="Search for products, brands and categories...">
+            <button>
+                <i class='bx bx-search'></i>
+            </button>
+        </div>
+        <div>
+            <p><span>?</span> Help <i class='bx bx-chevron-down'></i></p>
+        </div>
+        <div>
+            <p>Login/ <br>Signup</p>
+        </div>
+        <div class="cart">
+            <i class='bx bx-cart' ></i>
+            <p>My <br>Cart</p>
+            <div class="zero">0</div>
+        </div>
+    </div>
+
+
+
+
+
+    <!----------------- THIRD HEADER ----------------->
+
+    <div class="nxt">
+        <div class="nav-bar">
+            <div>
+                <p>All Categories</p>
+            </div>
+            <div class="lines">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+        <div class="info">Computers and Accessories</div>
+        <div class="info">Phones and Tablets</div>
+        <div class="info">Electronics</div>
+        <div class="info">Konga Fashion</div>
+        <div class="info">Home and Kitchen</div>
+        <div class="info">Baby, Kids and Toys</div>
+        <div class="info">Beauty, Health & Personal Care</div>
+    </div>
+
+
+
+
+    <!----------------- THE ADVERT IMAGE ----------------->
+    <div class="body">
+        <div class="ad">
+            <img src="image/EARLY BIRD BANNER -  MOBILE DEALS.png_XF74ilc5C.webp" alt="">
+        </div>
+        <div class="advert">
+            <img src="image/930 BY 915.png_iV-albt4v.webp" alt="">
+            <img src="image/box dimension.png_gSMicjYHQ.webp" alt="">
+            <img src="image/Bulky.jpg_ByGspCKTn.webp" alt="">
+            <img src="image/image (1).png_UzlEcf8H0.webp" alt="">
+        </div>
+
+    </div>
+
+
+
+
+
+    <!-------------------- BLOG ICONS -------------------->
+
+    <div class="icons">
+        <div>
+            <img src="image/blog.jpg_r1YjM-9Mi.webp" alt="">
+        </div>
+        <div>
+            <img src="image/bills.jpg_rJtsf-cfo.webp" alt="">
+        </div>
+        <div>
+            <img src="image/store.jpg_rJYifZqGi.webp" alt="">
+        </div>
+        <div>
+            <img src="image/Brand.jpg_B1qiGW5Gj.webp" alt="">
+        </div>
+        <div>
+            <img src="image/Brand copy.jpg_HJqizbcfj.webp" alt="">
+        </div>
+        <div>
+            <img src="image/Watch.jpg_rkrwll-Np.webp" alt="">
+        </div>
+    </div>
+
+
+
+    <!-------------------- FIRST DEALSSSSSSS ------------->
+
+
+    <div class="item1">
+        <div class="product">
+            <h2>Sponsored Products</h1>
+        </div>
+        <div class="spons_product">
+            <div class="prod">
+                <div class="prod_items">
+                    <img src="image/171328_1588936220.webp" alt="">
+                    <div>
+                        <h3>Creme Tin - 150ml - Pack O...</h3>
+                        <div class="price">
+                            <p class="new">N9,775</p>
+                            <p class="old">N11,500</p>
+                            <p class="discount">-15%</p>
+                        </div>
+                        <p class="save">You save N1,725</p>
+                    </div>
+                </div>
+            </div>
+            <div class="prod">
+                <div class="prod_items">
+                    <img src="image/171328_1681175455.webp" alt="">
+                    <div>
+                        <h3>Perfect & Radiant 3 In 1 Fa...</h3>
+                        <div class="price">
+                            <p class="new">N6,565</p>
+                            <p class="old">N8,750</p>
+                            <p class="discount">-25%</p>
+                        </div>
+                        <p class="save">You save N2,185</p>
+                    </div>
+                </div>
+            </div>
+            <div class="prod">
+                <div class="prod_items">
+                    <img src="image/210101_1669114053.webp" alt="">
+                    <div>
+                        <h3>Banga - Fresh Palm Fruit E...</h3>
+                        <div class="price">
+                            <p class="new">N39,000</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="prod">
+                <div class="prod_items">
+                    <img src="image/171328_1598606196.webp" alt="">
+                    <div>
+                        <h3>Black & White Invinsible Cle...</h3>
+                        <div class="price">
+                            <p class="new">N3,060</p>
+                            <p class="old">N3,600</p>
+                            <p class="discount">-15%</p>
+                        </div>
+                        <p class="save">You save N540</p>
+                    </div>
+                </div>
+            </div>
+            <div class="prod">
+                <div class="prod_items">
+                    <img src="image/171328_1713941742.webp" alt="">
+                    <div>
+                        <h3>Super Gro - 5 Litre</h3>
+                        <div class="price">
+                            <p class="new">N55,000</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+<!-------------------- SECOND DEALSSSSSSS ------------->
+
+
+<div class="perfumes">
+    <div class="delivery">
+        <h2>Same Day Delivery (KongaNow)</h2>
+        <a href="#">See All Items</a>
+    </div>
+    <div class="perfume_prod">
+        <div class="prod">
+            <div class="prod2">
+                <img src="image/_1730119703.webp" alt="">
+                <div>
+                    <h3>43" Led Full Hd Tv- Usd, Hdmi, Dolby + 1920 * ...</h3>
+                    <div class="price">
+                        <div class="new">N238,298</div>
+                        <div class="old">N204,000</div>
+                        <div class="discount">-16%</div>
+                    </div>
+                </div>                
+            </div>
+            <div class="prod3">
+                <div class="time">3days - 1hrs 10mins 54secs</div>
+                <div class="sold">
+                    <div class="sold2">
+                        Sold: <b>20%</b>
+                    </div>
+                    <div>
+                        <div class="line">
+                            <div class="line2"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <button>Add To Chart</button>
+        </div>
+        <div class="prod">
+            <div class="prod2">
+                <img src="image/_1730119105.webp" alt="">
+                <div>
+                    <h3>75" Smart Uhd Tv- Usb, Hdmi, Dolby + 3840 * 21...</h3>
+                    <div class="price">
+                        <div class="new">N1,058,511</div>
+                        <div class="old">N1,296,400</div>
+                        <div class="discount">-18%</div>
+                    </div>
+                </div>
+            </div>
+            <div class="prod3">
+                <div class="time">1days - 4hrs 3mins 51secs</div>
+                <div class="sold">
+                    <div class="sold2">
+                        Sold: <b>20%</b>
+                    </div>
+                    <div>
+                        <div class="line">
+                            <div class="line2 b"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <button>Add To Chart</button>
+        </div>
+        <div class="prod">
+            <div class="prod2">
+                <img src="image/171328_1680500226.webp" alt="">
+                <div>
+                    <h3>Nivea Men Deep Impact Body Lotion - 400ml...</h3>
+                    <div class="price">
+                        <div class="new">N3,655</div>
+                        <div class="old">N4,300</div>
+                        <div class="discount">-15%</div>
+                    </div>
+                </div>
+            </div>
+            <div class="prod3">
+                <div class="time">8days - 13hrs 33mins 5secs</div>
+                <div class="sold">
+                    <div class="sold2">
+                        Sold: <b>50%</b>
+                    </div>
+                    <div>
+                        <div class="line">
+                            <div class="line2 c"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <button>Add To Chart</button>
+        </div>
+        <div class="prod">
+            <div class="prod2">
+                <img src="image/171328_1681183756.webp" alt="">
+                <div>
+                    <h3>Nivea Deep Antiperspirant Roll- on For Men - 72h...</h3>
+                    <div class="price">
+                        <div class="new">N2,880</div>
+                        <div class="old">N3,600</div>
+                        <div class="discount">-20%</div>
+                    </div>
+                </div>
+            </div>
+            <div class="prod3">
+                <div class="time">8days - 13hrs 31mins 33secs</div>
+                <div class="sold">
+                    <div class="sold2">
+                        Sold: <b>74%</b>
+                    </div>
+                    <div>
+                        <div class="line">
+                            <div class="line2 d"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <button>Add To Chart</button>
+        </div>
+        <div class="prod">
+            <div class="prod2">
+                <img src="image/174740_1715179904.webp" alt="">
+                <div>
+                    <h3>iPower 200AH Block Inverter Battery (ZNX-ITEM-0)...</h3>
+                    <div class="price">
+                        <div class="new">N238,298</div>
+                        <div class="old">N204,000</div>
+                        <div class="discount">-16%</div>
+                    </div>
+                </div>
+            </div>
+            <div class="prod3">
+                <div class="time">3days - 1hrs 10mins 54secs</div>
+                <div class="sold">
+                    <div class="sold2">
+                        Sold: <b>20%</b>
+                    </div>
+                    <div>
+                        <div class="line">
+                            <div class="line2 e"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <button>Add To Chart</button>
+        </div>
+        
+        <div class="prod">
+            <div class="prod2">
+                <img src="image/231472_1730293354.webp" alt="">
+                <div>
+                    <h3>43" Led Full Hd Tv- Usd, Hdmi, Dolby + 1920 * ...</h3>
+                    <div class="price">
+                        <div class="new">N238,298</div>
+                        <div class="old">N204,000</div>
+                        <div class="discount">-16%</div>
+                    </div>
+                </div>
+            </div>
+            <div class="prod3">
+                <div class="time">3days - 1hrs 10mins 54secs</div>
+                <div class="sold">
+                    <div class="sold2">
+                        Sold: <b>20%</b>
+                    </div>
+                    <div>
+                        <div class="line">
+                            <div class="line2 e"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <button>Add To Chart</button>
+        </div>
+        <div class="prod">
+            <div class="prod2">
+                <img src="image/_1715267378.webp" alt="">
+                <div>
+                    <h3>43" Led Full Hd Tv- Usd, Hdmi, Dolby + 1920 * ...</h3>
+                    <div class="price">
+                        <div class="new">N238,298</div>
+                        <div class="old">N204,000</div>
+                        <div class="discount">-16%</div>
+                    </div>
+                </div>
+            </div>
+            <div class="prod3">
+                <div class="time">3days - 1hrs 10mins 54secs</div>
+                <div class="sold">
+                    <div class="sold2">
+                        Sold: <b>20%</b>
+                    </div>
+                    <div>
+                        <div class="line">
+                            <div class="line2 d"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <button>Add To Chart</button>
+        </div>
+        <div class="prod">
+            <div class="prod2">
+                <img src="image/_1689687174.webp" alt="">
+                <div>
+                    <h3>43" Led Full Hd Tv- Usd, Hdmi, Dolby + 1920 * ...</h3>
+                    <div class="price">
+                        <div class="new">N238,298</div>
+                        <div class="old">N204,000</div>
+                        <div class="discount">-16%</div>
+                    </div>
+                </div>
+            </div>
+            <div class="prod3">
+                <div class="time">3days - 1hrs 10mins 54secs</div>
+                <div class="sold">
+                    <div class="sold2">
+                        Sold: <b>20%</b>
+                    </div>
+                    <div>
+                        <div class="line">
+                            <div class="line2 c"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <button>Add To Chart</button>
+        </div>
+        <div class="prod">
+            <div class="prod2">
+                <img src="image/231472_1730296242.webp" alt="">
+                <div>
+                    <h3>43" Led Full Hd Tv- Usd, Hdmi, Dolby + 1920 * ...</h3>
+                    <div class="price">
+                        <div class="new">N238,298</div>
+                        <div class="old">N204,000</div>
+                        <div class="discount">-16%</div>
+                    </div>
+                </div>
+            </div>
+            <div class="prod3">
+                <div class="time">3days - 1hrs 10mins 54secs</div>
+            <div class="sold">
+                <div class="sold2">
+                    Sold: <b>20%</b>
+                </div>
+                <div>
+                    <div class="line">
+                        <div class="line2 b"></div>
+                    </div>
+                </div>
+            </div>
+            </div>
+            
+            <button>Add To Chart</button>
+        </div>
+        <div class="prod">
+            <div class="prod2">
+                <img src="image/231472_1730292713.webp" alt="">
+                <div>
+                    <h3>43" Led Full Hd Tv- Usd, Hdmi, Dolby + 1920 * ...</h3>
+                    <div class="price">
+                        <div class="new">N238,298</div>
+                        <div class="old">N204,000</div>
+                        <div class="discount">-16%</div>
+                    </div>
+                </div>
+            </div>
+            <div class="prod3">
+                <div class="time">3days - 1hrs 10mins 54secs</div>
+                <div class="sold">
+                    <div class="sold2">
+                        Sold: <b>20%</b>
+                    </div>
+                    <div>
+                        <div class="line">
+                            <div class="line2"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <button>Add To Chart</button>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+<!-------------------- THIRD DEALSSSSSSS ------------->
+
+
+<div class="rush_hour">
+    <div class="rush_img">
+        <img src="image/RUSH HOUR - 1100 BY 336 (1).png_zKkXWgWA_.webp" alt="">
+        <img src="image/SHAYO AND SHOP - 1100 BY 336.png_S10A-6jgI.webp" alt="">
+    </div>
+</div>
+
+
+<div class="shayo">
+    <div class="shayo_img">
+        <div class="shayo_section">
+            <img src="image/furniture.jpg_Sk7P1z9Ms.webp" alt="">
+            <div class="shayo_info">
+                <h2>HOME FURNISHINGS</h2>
+                <p>Get Up To 70% Off</p>
+                <div class="shayo_shop">
+                    <a href="#">SHOP NOW </a>
+                    <i class='bx bx-chevron-down'></i>
+                </div>
+            </div>
+        </div>
+        <div class="shayo_section">
+            <img src="image/fitness.jpg_BJFwyf5Mo.jpg" alt="">
+            <div class="shayo_info">
+                <h2>FITNESS TOOLS & EQUIPMENT</h2>
+                <p class="pt">Get Fitness Equipment At Amazing Discounts!</p>
+                <div class="shayo_shop">
+                    <a href="#">SHOP NOW </a>
+                    <i class='bx bx-chevron-down'></i>
+                </div>
+            </div>
+        </div>
+        <div class="shayo_section">
+            <img src="image/kids.jpg_B1HPkz9Mo.webp" alt="">
+            <div class="shayo_info">
+                <h2>KIDS WEARS & ACCESSORIES</h2>
+                <p class="pt">Get All Kiddies Products At Huge Discounts!</p>
+                <div class="shayo_shop">
+                    <a href="#">SHOP NOW </a>
+                    <i class='bx bx-chevron-down'></i>
+                </div>
+            </div>
+        </div>
+        <div class="shayo_section">
+            <img src="image/tvs.jpg_S1Ew1z9zi.webp" alt="">
+            <div class="shayo_info">
+                <h2>TOP DEALS ON TELEVISIONS</h2>
+                <p>Get the Tv You Want With Bargain Deals</p>
+                <div class="shayo_shop">
+                    <a href="#">SHOP NOW </a>
+                    <i class='bx bx-chevron-down'></i>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+</body>
+</html>

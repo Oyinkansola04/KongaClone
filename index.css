@@ -1,0 +1,1015 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    outline: none;
+}
+
+html{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+body{
+    background-color: #f2f2f2;
+}
+
+/************** SIZED UP PART ***********/
+.mobile{
+    width: 100%;
+    margin-top: 18px;
+    display: none;
+    background-color: #fff;
+}
+
+.mobile .head{
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 0px 3px 10px rgb(228, 226, 226);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+
+.mobile .color{
+    background-color: #f2f2f2;
+    width: 100%;
+    height: 17px;
+}
+
+.mobile_logo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    padding: 13px 14px 0px;
+}
+
+.mobile_nav{
+    display: flex;
+    align-items: center;
+}
+
+.mobile_nav .lines div{
+    width: 17px;
+    height: 4px;
+    margin: 0px 10px 2px 0px;
+    border-radius: 5px;
+    background-color: #000;
+}
+
+.mobile_nav img{
+    width: 97px;
+}
+
+.mobile_nav2 a{
+    text-decoration: none;
+    color: #50545b;
+}
+
+.mobile_nav2 a i{
+    font-size: 26px;
+    margin-left: 7px;
+}
+
+.mobile .search_btn{
+    width: 100%;
+    position: relative;
+    padding: 0px 14px 13px;
+}
+
+.search_btn input{
+    width: 100%;
+    border: none;
+    background-color: #e6e6e6;
+    padding: 12px 10px;
+    border-radius: 2px;
+    outline: none;
+}
+.search_btn input::placeholder{
+    font-size: 12px;
+}
+
+.search_btn a{
+    text-decoration: none;
+    position: absolute;
+    right: 10px;
+    top: 11px;
+    font-size: 20px;
+    color: #bbb;
+}
+
+
+
+
+/************ SECOND SIDE PART ***************/
+.browse_all{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-top: 28%;
+    padding: 50px 0px 0px;
+}
+
+.browse_all a{
+    text-decoration: none;
+    color: #50545b;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.browse_all a span{
+    font-size: 12px;
+    font-weight: 400;
+    margin: 7px 3px 10px;
+}
+
+
+
+
+/************ THIRD DOWN SIDE PART ***************/
+
+.home{
+    display: none;
+}
+
+.home2{
+    width: 100%;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 12px;
+    position: fixed;
+    z-index: 99;
+    bottom: 0;
+    left: 0;
+}
+.home a{
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    color: #50545b;
+}
+
+
+
+
+/************ THE LOGOS  ************/
+.images{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 120px 10px 100px;
+}
+
+img{
+    width: 120px;
+}
+
+
+
+/************* SECOND HEADER *****************/
+
+.header{
+    background-color: #ed017f;
+    color: #fff;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+}
+
+.header img{
+    width: 130px;
+}
+
+.header p{
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.header .header_search{
+    display: flex;
+    width: 500px;
+}
+
+.header_search button{
+    position: relative;
+    bottom: 0px;
+    right:5px;
+    background-color: #fba100;
+    color: #fff;
+    font-weight: 600;
+    padding: 13px 13px 7px;
+    font-size: 13px;
+    border: none;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+.header input{
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+
+.header span{
+    background-color: #fd4dab;
+    padding: 2px 5px;
+    font-size: 17px;
+    font-weight: 600;
+    border-radius: 50%;
+}
+
+.bx.bx-chevron-down{
+    font-size: 17px;
+}
+
+.header .cart{
+    display: flex;
+    align-items: center;
+    background-color: #33B27B;
+    width: 130px;
+    padding: 5px 15px;
+    border-radius: 3px;
+}
+
+.cart i{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.cart .zero{
+    background-color: #fff;
+    color: #000;
+    padding: 5px 7px;
+    margin-left: 30px;
+    font-weight: 600;
+    border-radius: 3px;
+    font-size: 12px;
+}
+
+.cart p{
+    font-size: 14px;
+    line-height: 17px;
+}
+
+
+/************* THIRD HEADER ******************/
+
+.nxt{
+    width: 100%;
+    padding: 14px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 13px;
+    color: #fff;
+    background-color: #94004f;
+}
+.nxt .nav-bar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-bar p{
+    margin-right: 5px;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.lines div{
+    width: 15px;
+    height: 2px;
+    background-color: #fff;
+    margin-bottom: 2px;
+}
+
+
+
+/***************** THE ADVERT IMAGE ***************/
+
+.body{
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.ad{
+    width: 76%;
+    cursor: pointer;
+}
+
+.ad img{
+    width: 100%;
+    height: 380px;
+    border-radius: 6px;
+}
+
+.advert{
+    width: 40%;
+    height: 380px;
+    margin-left: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.advert img{
+    flex: 1 1 28%;
+    width: 203px;
+    height: 182px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+
+
+
+
+/*********************** BLOG ICON ***********************/
+.icons{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    padding: 0px 20px;
+}
+
+.icons div{
+    padding: 12px 20px;
+    background-color: #fff;
+    font-size: 15px;
+    border-radius: 4px;
+    box-shadow: 0 0 .5rem rgba(0, 0, 0, .05);
+    cursor: pointer;
+}
+
+.icons div img{
+    width: 140px;
+}
+
+
+
+
+
+/******************** FIRST DEALSSSSSSS ******************/
+.item1{
+    margin: 30px 20px;
+    border-radius: 6px;
+    background-color: #fff;
+}
+
+.item1 .product{
+    border-bottom: 1px solid #e5e5e5;
+    padding: 10px 20px;
+    font-size: 13px;
+}
+
+.spons_product{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 30px 20px;
+    cursor: pointer;
+}
+
+.spons_product .prod{
+    flex: 1 1 10%;
+    max-width: 100%;
+    margin: 8px;
+    padding: 15px;
+    height: 350px;
+}
+
+.spons_product .prod:hover{
+    background-color: #fff;
+    box-shadow: 0 0 10px gray;
+    transition-duration: 1s;
+}
+
+.spons_product img{
+    width: 80%;
+    display: block;
+    margin: auto;
+}
+
+.spons_product h3{
+    font-size: 15px;
+    margin-top: 10px;
+    font-weight: 500;
+}
+
+.spons_product .price{
+    padding: 0;
+    margin: 20px 0px 13px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.spons_product .price .new{
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.spons_product .price .old{
+    text-decoration: line-through;
+    color: #1c1d1f;
+    font-size: 13px;
+}
+
+.spons_product .price .discount{
+    font-size: 10px;
+    padding: 2px;
+    border-radius: 5px;
+    background-color: #ff3b3b33;
+    color: #c60000;
+}
+
+.spons_product .save{
+    font-size: 11px;
+    color: #207f55;
+    font-weight: 600;
+}
+
+
+
+
+
+/****************** SECOND DEALSSSSSSSSS *****************/
+
+
+.perfumes{
+    margin: 0px 20px ;
+    border-radius: 6px;
+}
+
+.perfumes .delivery{
+    width: 100%;
+    display: flex;
+    background-color: #ffe9e9;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    box-shadow: 2px 2px 1px rgb(201, 200, 200);
+    margin-bottom: 20px;
+}
+
+.delivery h2{
+    padding: 20px;
+    font-size: 22px;
+    letter-spacing: 1px;
+}
+
+.delivery a{
+    color: #8b054d;
+    text-decoration: none;
+    margin: 15px 0px 0px 40px;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.delivery a:hover{
+    text-decoration: underline;
+}
+
+.perfume_prod{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 3px;
+    row-gap: 20px;
+    margin-bottom: 20px;
+}
+
+.perfume_prod .prod{
+    flex: 1 1 19%;
+    background-color: #fff;
+    padding: 10px;
+    height: 465px;
+    cursor: pointer;
+}
+
+.perfume_prod .prod:hover{
+    background-color: #fff;
+    box-shadow: 0 0 10px gray;
+    transition-duration: 1s;
+}
+
+.perfume_prod .prod img{
+    width: 90%;
+    height: 200px;
+    display: block;
+    margin: auto;
+}
+
+.perfume_prod .prod .price{
+    padding: 0;
+    margin: 10px 0px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 28px;
+    border-bottom: 1px solid #f2f2f2;
+}
+
+.perfume_prod .prod h3{
+    font-size: 14px;
+    margin-top: 20px;
+    padding-bottom: 5px;
+    font-weight: 500;
+    line-height: 20px;
+}
+
+.perfume_prod .prod .new{
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.perfume_prod .prod .old{
+    text-decoration: line-through;
+    color: #1c1d1f;
+    font-size: 13px;
+}
+
+.perfume_prod .prod .discount{
+    font-size: 10px;
+    padding: 2px;
+    border-radius: 5px;
+    background-color: #ff3b3b33;
+    color: #c60000;
+}
+
+.perfume_prod .time{
+    font-size: 15px;
+    padding: 10px 0px;
+    border-bottom: 1px solid #f2f2f2;
+}
+
+.perfume_prod .sold{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0px;
+}
+
+.perfume_prod button{
+    width: 100%;
+    padding: 8px 0px;
+    font-weight: 600;
+    background-color: transparent;
+    border: 1px solid #ed017f;
+    color: #f84ca2;
+    border-radius: 3px;
+    margin-top: 8px;
+    transition:  0.5s;
+    cursor: pointer;
+}
+
+.perfume_prod button:hover{
+    background-color: #ed017f;
+    color: white;
+}
+
+.sold .line{
+    background-color: #f2f2f2;
+    width: 90px;
+    height: 10px;
+    border-radius: 20px;
+    position: relative;
+}
+
+.sold .sold2{
+    font-size: 14px;
+}
+
+.sold .line2{
+    position: absolute;
+    width: 40px;
+    height: 10px;
+    border-radius: 20px;
+    background-color: #33b27b;
+}
+
+.sold .line2.b{
+    width: 20px;
+    height: 10px;
+}
+
+.sold .line2.c{
+    width: 50px;
+    height: 10px;
+}
+
+.sold .line2.d{
+    width: 30px;
+    height: 10px;
+}
+
+.sold .line2.e{
+    width: 70px;
+    height: 10px;
+}
+
+
+
+
+/****************** THIRD DEALSSSSSSSSS *****************/
+
+.rush_hour{
+    background-color: #fff;
+    box-shadow: -8px 10px 10px rgba(0, 0, 0, .05);
+    margin: 0px 20px 20px;
+    padding: 10px;
+    border-radius: 7px;
+}
+
+
+.rush_hour .rush_img{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    width: 100%;
+    cursor: pointer;
+}
+
+.rush_hour .rush_img img{
+    flex: 1 1 49.5%;
+    height: 210px;
+    border-radius: 5px;
+
+}
+
+.shayo{
+    background-color: #fff;
+    box-shadow: -8px 10px 10px rgba(0, 0, 0, .05);
+    margin: 0px 20px 20px;
+    padding: 10px;
+    border-radius: 7px;
+}
+
+.shayo_img{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.shayo_section{
+    background-color: #f1f1f1;
+    width: 285px;
+    height: 360px;
+    border-radius: 7px;
+    transition: 0.8s;
+    cursor: pointer;
+}
+
+.shayo_section:hover{
+    box-shadow: 0 0 7px gray;
+    transition-duration: 1s;
+}
+
+
+.shayo_section img{
+    width: 100%;
+    height: 180px;
+    margin-bottom: 35px;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+}
+
+.shayo_info{
+    margin: 0px 13px 25px;
+}
+
+.shayo_info h2{
+    font-size: 17px;
+    margin-bottom: 35px;
+    color: #5a5f66;
+}
+
+.shayo_info p{
+    font-size: 14px;
+    color: #5a5f66;
+    margin-bottom: 35px;
+    line-height: 20px;
+}
+
+.shayo_info p.pt{
+    margin-bottom: 14px;
+}
+
+.shayo_info .shayo_shop{
+    display: flex;
+    align-items: center;
+}
+
+.shayo_info a{
+    text-decoration: none;
+    font-size: 13px;
+    color: #8b054d;
+    font-weight: 600;
+}
+
+.shayo_info i{
+    transform: rotate(-90deg);
+    font-size: 20px;
+    color: #8b054d;
+}
+
+
+
+
+@media (max-width:1024px){
+    .images{
+        padding: 10px 30px;
+    }
+    img{
+        width: 80px;
+    }
+    .header{
+        padding: 15px ;
+    }
+    .header img{
+        width: 100px;
+    }
+    .header p{
+        font-size: 12px;
+        line-height: 15px;
+    }
+    .header .header_search{
+        width: 400px;
+    }
+    .header span{
+        padding: 1px 5px;
+        font-size: 16px;
+    }
+    .bx.bx-chevron-down{
+        font-size: 16px;
+    }
+    .header .cart{
+        width: 120px;
+        padding: 5px 12px;
+    }
+    .nxt .info, .nav-bar p{
+        font-size: 11px;
+    }
+    .ad{
+    width: 77%;
+    cursor: pointer;
+    }
+    .advert img{
+    width: 160px;
+    }
+    .icons{
+        margin-bottom: 0px;
+    }
+    .icons div{
+        padding: 10px 13px;
+    }
+    .icons div img{
+        width: 130px;
+    }
+    .perfume_prod .prod{
+    height: 480px;
+    }
+    .perfume_prod .prod h3{
+        font-size: 13px;
+    }
+    .perfume_prod .prod .new{
+        font-size: 17px;
+    }
+    .perfume_prod .prod .old{
+        text-decoration: line-through;
+        color: #1c1d1f;
+        font-size: 12px;
+    }
+    .perfume_prod .prod .discount{
+        font-size: 8px;
+        padding: 2px;
+        border-radius: 5px;
+        background-color: #ff3b3b33;
+        color: #c60000;
+    }
+    .rush_hour .rush_img img{
+        flex: 1 1 49%;
+    }
+    
+}
+
+
+
+@media (max-width:768px){
+    .header{
+        padding: 15px ;
+    }
+    .header img{
+        width: 90px;
+    }
+    .header p{
+        font-size: 11px;
+        line-height: 15px;
+    }
+    .header .header_search{
+        width: 330px;
+    }
+    .header span{
+        padding: 1px 5px;
+        font-size: 14px;
+    }
+    .bx.bx-chevron-down{
+        font-size: 14px;
+    }
+    .header .cart{
+        width: 80px;
+        padding: 5px 10px;
+    }
+    .cart .zero{
+    margin-left: 7px;
+    padding: 3px 5px;
+    font-size: 10px;
+    }
+    .nxt{
+        padding: 12px 20px;
+    }
+    .nxt .info, .nav-bar p{
+        font-size: 9px;
+    }
+    .body{
+        display: inline-block;
+    }
+    .ad{
+        width: 100%;
+    }
+    .ad img{
+        height: 400px;
+    }
+    .advert{
+        width: 100%;
+        height: 180px;
+        margin: 10px 0px 0px;
+    }
+    .advert img{
+        flex: 1 1 18%;
+        height: 180px;
+    }
+    .icons{
+        display: none;
+    }
+    .item1{
+        margin: 10px 20px 30px;
+        border-radius: 6px;
+        background-color: #fff;
+    }
+    .spons_product .prod_items{
+        display: flex;
+        gap: 20px;
+        width: 290px;
+    }
+    .spons_product .prod{
+        height: 180px;
+        flex: 0 1 10%;
+        max-width: 100%;
+    }
+    .spons_product img{
+        width: 40%;
+    }
+    .perfume_prod{
+        width: 100%;
+        gap: 14px;
+    }
+    .perfume_prod .prod{
+        flex: 0 1 49%;
+        max-width: 100%;
+        height: 280px;
+    }
+    .perfume_prod .prod img{
+        width: 50%;
+        height: 130px;
+    }
+    .perfume_prod .prod h3{
+        font-size: 13px;
+        margin-top: 16px;
+    } 
+    .perfume_prod .prod .prod2{
+        display: flex;
+    }
+    .perfume_prod .prod .prod3{
+        display: flex;
+        margin-bottom: 20px;
+    }
+    .rush_hour .rush_img img{
+        height: 150px;
+    }
+}
+
+
+
+
+@media (max-width:430px){
+    .mobile{
+        display: block;
+        width: 100%;
+    }
+    .images,.header,.nxt{
+        display: none;
+    }
+    .body{
+        display: inline-block;
+        padding: 8px;
+    }
+    .ad{
+        width: 100%;
+    }
+    .ad img{
+        height: 170px;
+    }
+    .advert{
+        width: 100%;
+        height: 300px;
+        margin: 17px 0 0px;
+    }
+    
+    .advert img{
+        flex: 1 1 48%;
+        height: 144px;
+    }
+    .item1{
+        margin: 25px 8px;
+    }
+    .spons_product{
+        width: 100%;
+        padding: 20px 5px;
+    }
+    .spons_product .prod{
+        width: 100%;
+        
+    flex: 1 1 100%;
+    }
+    .spons_product .prod_items{
+        width: 100%;
+    }
+    .spons_product img{
+        width: 30%;
+    }
+    .spons_product .price .new{
+        font-size: 15px;
+    }
+    .spons_product .price .old{
+        font-size: 11px;
+    }
+    .spons_product .price .discount{
+        font-size: 8px;
+        padding: 4px;
+        border-radius: 3px;
+    }
+    .spons_product .save{
+        margin-top: 18px;
+    }
+    .perfumes{
+        margin: 0px 8px ;
+    }
+    .delivery h2{
+        padding: 15px 20px;
+        font-size: 13px;
+    }
+    
+    .delivery a{
+        margin: 15px 5px 0px 40px;
+        font-size: 8px;
+    }
+    .perfume_prod{
+        width: 100%;
+    }
+    .perfume_prod .prod{
+        flex: 0 1 100%;
+        max-width: 100%;
+        height: 260px;
+    }
+    .perfume_prod .prod .prod3{
+        gap: 40px;
+    }
+    .rush_hour{
+        margin: 0px 8px 20px;
+    }
+    .rush_hour .rush_img img{
+        flex: 0 1 100%;
+        height: 150px;
+    }
+    .home{
+        display: block;
+    }   
+}
