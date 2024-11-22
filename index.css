@@ -665,13 +665,14 @@ img{
 .shayo_img{
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
 }
 
 .shayo_section{
+    flex: 0 1 24%;
     background-color: #f1f1f1;
-    width: 285px;
-    height: 360px;
+    height: 400px;
     border-radius: 7px;
     transition: 0.8s;
     cursor: pointer;
@@ -708,10 +709,6 @@ img{
     line-height: 20px;
 }
 
-.shayo_info p.pt{
-    margin-bottom: 14px;
-}
-
 .shayo_info .shayo_shop{
     display: flex;
     align-items: center;
@@ -731,6 +728,228 @@ img{
 }
 
 
+
+
+
+
+
+ /******************** FIRST FOOTER *********************/
+
+
+ .shopping{
+    margin: 0px 20px 20px;
+    background-color: #fff;
+    border-radius: 6px;
+    padding: 20px;
+    box-shadow: -8px 10px 10px rgba(0, 0, 0, .05);
+}
+
+.shopping h3{
+    color: #5a5f66;
+    margin-bottom: 5px;
+}
+
+.shopping p{
+    line-height: 25px;
+    color: #5a5f66;
+    font-size: 15px;
+}
+
+.shopping p a{
+    text-decoration: none;
+    color: #e80a80;
+}
+
+
+
+/********************** MAIN FOOTER **********************/
+
+.footer{
+    background-color: #1c1d1f;
+    color: #b5b5b5;
+    padding: 17px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.footer .info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #b5b5b5;
+}
+
+.footer .info:hover{
+    color: #fff;
+}
+
+.footer .info .icon{
+    padding: 7px;
+    margin-right: 8px;
+    border-radius: 50%;
+    background-color: white;
+}
+
+.footer .info .icon i{
+    font-size: 18px;
+    color: #000;
+}
+
+.footer .info h4{
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+
+.footer .info a{
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.footer .info p{
+    font-size: 14px;
+}
+
+.footer .info input{
+    padding: 14px 10px;
+    border: none;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.footer .info button{
+    padding: 14px 20px;
+    border: none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color: #ed017f;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+}
+
+.konga{
+    background-color: #0c0c0c;
+    color: #b5b5b5;
+    padding: 20px 0px;
+}
+
+.konga .container{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 30px 10px 20px;
+}
+
+.konga .container h4{
+    font-size: 13px;
+    margin-bottom: 25px;
+    cursor: pointer;
+}
+
+.konga .container h4:hover,
+.konga .container p:hover{
+    color: #fff;
+    text-shadow: 0px 2px #999;
+}
+
+.konga .container p{
+    font-size: 12px;
+    margin-bottom: 15px;
+    font-weight: 0;
+    cursor: pointer;
+}
+
+.write-up .icon{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 370px;
+}
+ .write-up .icon .box{
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+    background-color: #000;
+    padding: 10px 35px 5px 10px;
+    margin-bottom: 25px;
+    cursor: pointer;
+ }
+
+ .write-up .icon .box p{
+    font-size: 12px;
+    margin: 0px 0px 3px;
+ }
+
+ .write-up .icon .box h3{
+    font-size: 15px;
+ }
+
+ .write-up .box .ab{
+    margin-right: 5px;
+ }
+
+ .box .ab i{
+    font-size: 45px;
+    color: #fff;
+ }
+
+ .write-up .write h4{
+    font-size: 16px;
+    margin-bottom: 5px;
+ }
+
+ .write-up .write h4:hover{
+    text-shadow: none;
+ }
+
+ .write .write_icon i{
+    cursor: pointer;
+    padding: 7px;
+    background-color: #333;
+    margin-right: 7px;
+    color: #fff;
+    border-radius: 50%;
+    font-size: 25px;
+ }
+
+ .write_icon .bx.bxl-facebook:hover{
+    background-color: #fff;
+    color:dodgerblue;
+ }
+
+ .write_icon .bx.bxl-twitter:hover{
+    background-color: #fff;
+    color:#000;
+ }
+
+ .write_icon .bx.bxl-instagram:hover{
+    background-color: #fff;
+    color:#94004f;
+ }
+ 
+ .write_icon .bx.bxl-youtube:hover{
+    background-color: #fff;
+    color: red;
+ }
+
+ .copyright{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 60px 0 0;
+ }
+
+ .copyright hr{
+    width: 39%;
+    color: #9b9b9b;
+ }
+
+ .copyright h4{
+    font-size: 12px;
+    font-weight: 100;
+    color: #9b9b9b;
+} 
 
 
 @media (max-width:1024px){
@@ -807,7 +1026,19 @@ img{
     .rush_hour .rush_img img{
         flex: 1 1 49%;
     }
+
+    .shayo_info h2{
+        font-size: 13px;
+    }
     
+    .shayo_info p{
+        margin-bottom: 30px;
+    }
+    .copyright hr{
+        width: 36%;
+        color: #9b9b9b;
+     }  
+           
 }
 
 
@@ -914,6 +1145,17 @@ img{
     .rush_hour .rush_img img{
         height: 150px;
     }
+    
+    .shayo_section{
+        flex: 1 1 45%;
+    }
+    
+    .shayo_info p.pt{
+        margin-bottom: 40px;
+    }
+    .footer,.konga{
+        display: none;
+    }
 }
 
 
@@ -956,8 +1198,7 @@ img{
     }
     .spons_product .prod{
         width: 100%;
-        
-    flex: 1 1 100%;
+        flex: 1 1 100%;
     }
     .spons_product .prod_items{
         width: 100%;
@@ -1012,4 +1253,36 @@ img{
     .home{
         display: block;
     }   
+    .shayo{
+        margin: 0px 8px 20px;
+    }
+    .shayo_section img{
+        height: 150px;
+    }
+    .shayo_info{
+        margin: 0px 13px 25px;
+    }
+    .shayo_section{
+        flex: 0 1 100%;
+    }
+    .shayo_info h2{
+        font-size: 15px;
+    }
+    
+    .shayo_info p{
+        margin-bottom: 40px;
+    }
+    
+    .shayo_info p.pt{
+        margin-bottom: 40px;
+    }
+    .shopping{
+        display: none;
+    }    
+    .shayo{
+        margin-bottom: 65px;
+    }
+    .browse_all{
+        padding: 70px 0px 0px;
+    }
 }
